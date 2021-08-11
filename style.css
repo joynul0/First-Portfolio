@@ -20,6 +20,8 @@ h1{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: justify;
     
+
+
    
 }
 .author{
@@ -29,7 +31,7 @@ h1{
 .black{
     color: rgb(80,52,2);
 }
-section{
+.flexible{
     
     display: flex;
     padding-bottom: 120px;
@@ -78,3 +80,39 @@ section{
     padding-bottom:50px;
    
 }
+
+.time{
+    color: rgb(255, 166, 0);
+}
+
+.box{
+  box-shadow: 10px 10px 40px gray;
+  width:40%;
+  margin: 40px;
+  padding: 5px;
+
+}
+
+.experience{
+
+    background-position: left;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#ex{
+    
+    width: 230px;
+    margin-left: 5%;
+    padding-left: 10px;
+  background-color:rgba(98, 0, 255, 0.603);
+    height: 50px;
+   border-radius:5px;
+   color:white;
+}
+
+.last{
+    text-align:center;
+    font-size:19px;
+}
+    
