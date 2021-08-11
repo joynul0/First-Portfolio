@@ -1,0 +1,80 @@
+.top{
+
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+    font-family: 'STIX Two Text', serif;
+}
+h1{
+    font-size: 42px;
+    color: rgb(80, 52, 2);
+    height: 25px;
+    
+}
+.blog1{
+    width: 75%;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: justify;
+    
+   
+}
+.author{
+    color: Gold;
+    height: 100px;
+}
+.black{
+    color: rgb(80,52,2);
+}
+section{
+    
+    display: flex;
+    padding-bottom: 120px;
+    padding-left: 5%;
+}
+.first{
+    width: 130%;
+    margin: justify;
+   
+    
+    
+}
+.first img{
+    width: 70%;
+    padding-top: 3%;
+      
+    
+}
+.firs img{
+
+   
+    width:70%;
+}
+.button{
+       text-decoration: none;
+       background-color:rgb(255, 255, 255);
+       padding: 10px;
+       border-radius: 5px;
+       background-image: linear-gradient(salmon,orange);
+       color: white;
+       font-weight: bold;
+}
+
+.middle{
+    
+
+    background-image: url(images/dream-bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 40px;
+}
+
+.blog2{
+    height: 25px;
+    padding-bottom:50px;
+   
+}
