@@ -90,7 +90,19 @@ h1{
   width:40%;
   margin: 40px;
   padding: 5px;
+  
 
+}
+
+#border1{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(255, 34, 5),rgb(0, 255, 115));
+    border-image-slice: 1;
+}
+#border2{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(202, 216, 1),rgb(95, 7, 167));
+    border-image-slice: 1;
 }
 
 .experience{
@@ -98,6 +110,7 @@ h1{
     background-position: left;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    
 }
 
 #ex{
@@ -107,7 +120,7 @@ h1{
     padding-left: 10px;
   background-color:rgba(98, 0, 255, 0.603);
     height: 50px;
-   border-radius:5px;
+   border-radius:5px ;
    color:white;
 }
 
